@@ -1,5 +1,10 @@
 import cn from "classnames";
+import { DefaultLayout } from "../layouts/DefaultLayout";
 
 export default function Home() {
-  return <div className="">test</div>;
+  return (
+    <DefaultLayout>
+      <>test</>
+    </DefaultLayout>
+  );
 }
